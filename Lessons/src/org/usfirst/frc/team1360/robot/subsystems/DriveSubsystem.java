@@ -10,9 +10,9 @@ public class DriveSubsystem extends Subsystem
 {
     
     Jaguar left = new Jaguar(RobotMap.DRIVE_LEFT_1);
-    Jaguar left2 = new Jaguar(RobotMap.DRIVE_LEFT_1);
-    Jaguar right = new Jaguar(RobotMap.DRIVE_LEFT_1);
-    Jaguar right2 = new Jaguar(RobotMap.DRIVE_LEFT_1);
+    Jaguar left2 = new Jaguar(RobotMap.DRIVE_LEFT_2);
+    Jaguar right = new Jaguar(RobotMap.DRIVE_Right_1);
+    Jaguar right2 = new Jaguar(RobotMap.DRIVE_Right_2);
 
     public void initDefaultCommand()
     {
