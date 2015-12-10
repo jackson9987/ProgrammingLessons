@@ -1,7 +1,7 @@
 package org.usfirst.frc.team1360.robot;
 
-import edu.wpi.first.wpilibj.buttons.Button;
-import org.usfirst.frc.team1360.robot.commands.ExampleCommand;
+import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.Joystick.AxisType;
 
 /**
  * This class is the glue that binds the controls on the physical operator
@@ -9,7 +9,8 @@ import org.usfirst.frc.team1360.robot.commands.ExampleCommand;
  */
 public class OI 
 {
-    Joystick drive = new Joystick(0);
-    public static float drive_LeftStickX = drive.getAxis(0);
+    static Joystick drive = new Joystick(0);
+    static AxisType axis1 = AxisType.kNumAxis;
+    public static double drive_LeftStickX = drive.getAxis(axis1);
 }
 

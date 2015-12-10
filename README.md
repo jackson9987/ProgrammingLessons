@@ -1,2 +1,0 @@
-# ProgrammingLessons
-Learning repo
